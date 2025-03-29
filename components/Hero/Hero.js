@@ -85,13 +85,9 @@ const Hero = () => {
       </div>
        <div
         ref={imageRef}
-        className="absolute w-full max-w-xs mx-auto
-                  bottom-4 
-                  sm:w-4/12 sm:mx-0 sm:right-4 
-                  md:w-3/12 md:bottom-8 md:right-4
-                  lg:w-4/12 lg:bottom-2 lg:right-12 
-                  xl:w-3/12 2xl:right-16 
-                  rounded-lg overflow-hidden flex justify-center"
+        className="absolute hidden w-4/12 md:w-3/12 lg:w-4/12 xl:w-3/12 bottom-4 
+             md:bottom-8 lg:bottom-9 right-7 md:flex lg:right-12 2xl:right-16 
+             rounded-lg overflow-hidden"
         >       
         <Image
           src={profilePicture}

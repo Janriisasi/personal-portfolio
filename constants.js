@@ -2,12 +2,12 @@ export const METADATA = {
   author: "John Rey Sasi",
   title: "Portfolio | John Rey",
   description:
-    "John Rey is a passionate Frontend Developer, dedicated to crafting aesthetic and modern apps that captivate and engage users.",
+    "John Rey is a passionate Full-stack Developer, dedicated to crafting modern web apps that captivate and engage users.",
   siteUrl: "",
   twitterHandle: "@janrii",
   keywords: [
     "John Rey Sasi",
-    "Frontend Developer",
+    "Fullstack Developer",
     "Web Developer",
     "Portfolio",
     "Devfolio",
@@ -43,7 +43,7 @@ export const MENULINKS = [
 ];
 
 export const TYPED_STRINGS = [
-  "A Frontend Developer",
+  "A Full-stack Developer",
   "A UI/UX Designer",
   "I build things for the web",
 ];

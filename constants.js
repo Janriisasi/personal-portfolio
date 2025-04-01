@@ -120,7 +120,7 @@ export const PROJECTS = [
     url: "",
   },
   {
-    name: "J$J's Shop",
+    name: "J&J's Shop",
     image: "/projects/jjsshop.png",
     blurImage: "/projects/blur/jjsshop-blur.png",
     description: "An ecommerce website where you can buy or shop items",

@@ -127,6 +127,14 @@ export const PROJECTS = [
     gradient: ["#d6d6d6", "#d1d1d1"],
     url: "",
   },
+  {
+    name: "HanceAI",
+    image: "/projects/hanceai.png",
+    blurImage: "/projects/blur/hanceai-blur.png",
+    description: "My first AI Web App that I created to learn how AI works and to enhance my skills in web development.",
+    gradient: ["#101010", "#4D1F93"],
+    url: "https://github.com/Janriisasi/hanceai",
+  },
 ];
 
 // export const WORK = [

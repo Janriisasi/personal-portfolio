@@ -95,6 +95,22 @@ export const SKILLS = {
 
 export const PROJECTS = [
   {
+    name: "HanceAI",
+    image: "/projects/hanceai.png",
+    blurImage: "/projects/blur/hanceai-blur.png",
+    description: "My first AI Web App that I created to learn how AI works and to enhance my skills in web development.",
+    gradient: ["#101010", "#4D1F93"],
+    url: "https://github.com/Janriisasi/hanceai",
+  },
+  {
+    name: "Crypture",
+    image: "/projects/crypture.png",
+    blurImage: "/projects/blur/crypture-blur.png",
+    description: "A web app that helps you to remember your password in any websites.",
+    gradient: ["#000000", "#f1f1f1"],
+    url: "https://crypture-one.vercel.app/",
+  },
+  {
     name: "Anisave",
     image: "/projects/ani.png",
     blurImage: "/projects/blur/ani-blur.png",
@@ -126,14 +142,6 @@ export const PROJECTS = [
     description: "An ecommerce website where you can buy or shop items",
     gradient: ["#d6d6d6", "#d1d1d1"],
     url: "",
-  },
-  {
-    name: "HanceAI",
-    image: "/projects/hanceai.png",
-    blurImage: "/projects/blur/hanceai-blur.png",
-    description: "My first AI Web App that I created to learn how AI works and to enhance my skills in web development.",
-    gradient: ["#101010", "#4D1F93"],
-    url: "https://github.com/Janriisasi/hanceai",
   },
 ];
 

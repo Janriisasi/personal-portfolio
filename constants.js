@@ -2,12 +2,12 @@ export const METADATA = {
   author: "John Rey Sasi",
   title: "Portfolio | John Rey",
   description:
-    "John Rey is a passionate Full-stack Developer, dedicated to crafting modern web apps that captivate and engage users.",
+    "John Rey is a passionate Frontend Developer, dedicated to crafting modern web apps that captivate and engage users.",
   siteUrl: "",
   twitterHandle: "@janrii",
   keywords: [
     "John Rey Sasi",
-    "Fullstack Developer",
+    "Frontend Developer",
     "Web Developer",
     "Portfolio",
     "Devfolio",
@@ -43,7 +43,7 @@ export const MENULINKS = [
 ];
 
 export const TYPED_STRINGS = [
-  "A Full-Stack Developer",
+  "A Frontend Developer",
   "A UI/UX Designer",
   "I build things for the web",
 ];
@@ -86,7 +86,6 @@ export const SKILLS = {
   ],
   librariesAndFrameworks: [
     "react",
-    "nextjs",
     "tailwindcss",
   ],
   databases: ["mysql", "mongodb"],
@@ -98,7 +97,7 @@ export const PROJECTS = [
     name: "HanceAI",
     image: "/projects/hanceai.png",
     blurImage: "/projects/blur/hanceai-blur.png",
-    description: "My first AI Web App that I created to learn how AI works and to enhance my skills in web development.",
+    description: "My first AI Web App that I created using Ollama",
     gradient: ["#101010", "#4D1F93"],
     url: "https://github.com/Janriisasi/hanceai",
   },
@@ -114,7 +113,7 @@ export const PROJECTS = [
     name: "Anisave",
     image: "/projects/ani.png",
     blurImage: "/projects/blur/ani-blur.png",
-    description: "A web app that helps farmers to monitor and sell their crops.",
+    description: "A web app that helps farmers to monitor market prices and showcase their crops.",
     gradient: ["#003D4B", "#006D4B"],
     url: "https://github.com/Janriisasi/anisave.git",
   },
@@ -218,7 +217,7 @@ export const WORK_CONTENTS = {
         "Now, I have experience in both frontend and backend development, allowing me to create fully functional web applications. My focus has shifted to refining my skills, optimizing performance, and developing real-world projects that solve practical problems.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Full-Stack Developer
+          Frontend Developer
         </div>
       ),
     },

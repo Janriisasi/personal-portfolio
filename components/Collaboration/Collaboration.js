@@ -64,7 +64,7 @@ const Collaboration = ({ clientHeight }) => {
         <p className="opacity-40 text-6xl sm:text-7xl font-semibold whitespace-nowrap ui-left transform-gpu">
           {Array(5)
             .fill(
-              " Full-stack Developer UI/UX Designer Aspiring Data Scientist "
+              " Frontend Developer UI/UX Designer Web Developer "
             )
             .reduce((str, el) => str.concat(el), "")}{" "}
         </p>

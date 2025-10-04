@@ -6,7 +6,7 @@ import Profiles from "../Profiles/Profiles";
 import styles from "./Hero.module.scss";
 import { MENULINKS, TYPED_STRINGS } from "../../constants";
 import Image from "next/image";
-import profilePicture from "public/profile/profile.jpeg";
+import profilePicture from "public/profile/prof_image.png";
 
 const options = {
   strings: TYPED_STRINGS,
@@ -47,58 +47,61 @@ const Hero = () => {
 
   return (
     <section
-      ref={sectionRef}
-      id={MENULINKS[0].ref}
-      className="w-full flex md:items-center py-8 2xl:container mx-auto xl:px-20 md:px-12 px-4 min-h-screen relative mb-24"
-      style={{ opacity: 0 }}
+  ref={sectionRef}
+  id={MENULINKS[0].ref}
+  className="w-full flex flex-col md:flex-row items-start md:items-center justify-between py-8 2xl:container mx-auto xl:px-20 md:px-12 px-4 min-h-screen relative mb-24"
+  style={{ opacity: 0 }}
+>
+  <style global jsx>
+    {`
+      .typed-cursor {
+        font-size: 2rem;
+      }
+    `}
+  </style>
+
+  {/* Left side - Text */}
+  <div className="flex flex-col pt-20 md:pt-0 select-none md:w-1/2">
+    <h5
+      className={`${styles.intro} font-mono font-medium text-indigo-light staggered-reveal`}
     >
-      <style global jsx>
-        {`
-          .typed-cursor {
-            font-size: 2rem;
-          }
-        `}
-      </style>
-      <div className="flex flex-col pt-40 md:pt-0 select-none">
-        <h5
-          className={`${styles.intro} font-mono font-medium text-indigo-light staggered-reveal`}
-        >
-          Hi, my name is
-        </h5>
-        <h1 className={`${styles.heroName} text-white text-6xl font-semibold`}>
-          <span className="staggered-reveal">John Rey Sasi</span>
-        </h1>
-        <p>
-          <span
-            ref={typedElementRef}
-            className="staggered-reveal text-3xl text-gray-light-3 font-mono leading-relaxed"
-          />
-        </p>
-        <div className="staggered-reveal">
-          <Profiles />
-        </div>
-        <div className="staggered-reveal pt-4">
-          <Button href={`#${MENULINKS[4].ref}`} classes="link" type="primary">
-            Let&apos;s Talk
-          </Button>
-        </div>
-      </div>
-       <div
-        ref={imageRef}
-        className="absolute hidden w-4/12 md:w-3/12 lg:w-4/12 xl:w-3/12 bottom-4 
-             md:bottom-8 lg:bottom-9 right-7 md:flex lg:right-12 2xl:right-16 
-             rounded-lg overflow-hidden"
-        >       
-        <Image
-          src={profilePicture}
-          alt="John Rey Sasi"
-          width={400}
-          height={500}
-          className="object-fit"
-          priority
-        />
-      </div>
-    </section>
+      Hi, my name is
+    </h5>
+    <h1 className={`${styles.heroName} text-white text-6xl font-semibold`}>
+      <span className="staggered-reveal">John Rey Sasi</span>
+    </h1>
+    <p>
+      <span
+        ref={typedElementRef}
+        className="staggered-reveal text-3xl text-gray-light-3 font-mono leading-relaxed"
+      />
+    </p>
+    <div className="staggered-reveal">
+      <Profiles />
+    </div>
+    <div className="staggered-reveal pt-4">
+      <Button href={`#${MENULINKS[4].ref}`} classes="link" type="primary">
+        Let&apos;s Talk
+      </Button>
+    </div>
+  </div>
+
+  {/* Right side - Image */}
+  <div
+    ref={imageRef}
+    className="mt-10 md:mt-0 md:w-1/2 flex justify-center lg:justify-end rounded-lg overflow-hidden"
+  >
+    <Image
+      src={profilePicture}
+      alt="John Rey Sasi"
+      width={400}
+      height={400}
+      className="object-contain rounded-lg"
+      priority
+    />
+  </div>
+</section>
+
   );
 };
 

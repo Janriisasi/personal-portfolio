@@ -88,7 +88,7 @@ export const SKILLS = {
     "react",
     "tailwindcss",
   ],
-  databases: ["mysql", "mongodb"],
+  databases: ["mysql", "mongodb", "supabase"],
   other: ["git"],
 };
 

@@ -44,7 +44,7 @@ export const MENULINKS = [
 
 export const TYPED_STRINGS = [
   "A Frontend Developer",
-  "A UI/UX Designer",
+  "A Web Developer",
   "I build things for the web",
 ];
 
@@ -95,6 +95,14 @@ export const SKILLS = {
 
 export const PROJECTS = [
   {
+    name: "Anisave",
+    image: "/projects/ani.png",
+    blurImage: "/projects/blur/ani-blur.png",
+    description: "A web app that helps farmers to monitor market prices and showcase their crops.",
+    gradient: ["#003D4B", "#006D4B"],
+    url: "https://anisave.vercel.app/",
+  },
+  {
     name: "HanceAI",
     image: "/projects/hanceai.png",
     blurImage: "/projects/blur/hanceai-blur.png",
@@ -109,14 +117,6 @@ export const PROJECTS = [
     description: "A web app that helps you to remember your password in any websites.",
     gradient: ["#000000", "#f1f1f1"],
     url: "https://crypture-one.vercel.app/",
-  },
-  {
-    name: "Anisave",
-    image: "/projects/ani.png",
-    blurImage: "/projects/blur/ani-blur.png",
-    description: "A web app that helps farmers to monitor market prices and showcase their crops.",
-    gradient: ["#003D4B", "#006D4B"],
-    url: "https://github.com/Janriisasi/anisave.git",
   },
   {
     name: "Awesome Todos",
@@ -198,7 +198,7 @@ export const WORK_CONTENTS = {
         "I may not have industry experience yet, but I have gained hands-on experience in coding and building projects through my studies and personal initiatives. I have worked on web and mobile  applications, embedded systems, and various software solutions.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          2ND YEAR
+          3RD YEAR
         </div>
       ),
     },

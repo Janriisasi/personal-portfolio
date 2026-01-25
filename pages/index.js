@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
 import Loader from "@/components/Loader/Loader";
+import ChatWidget from "@/components/ChatWidget/chatwidget";
 import Header from "@/components/Header/Header";
 import Menu from "@/components/Header/Menu/Menu";
 import ProgressIndicator from "@/components/ProgressIndicator/ProgressIndicator";
@@ -74,6 +75,7 @@ export default function Home() {
             <Collaboration clientHeight={clientHeight} />
             <Contact />
           </main>
+          <ChatWidget />
           <Footer />
         </>
       )}

@@ -24,6 +24,7 @@ Instructions:
 - Don't use emojis
 - When asked about "his" or "their" skills/projects/work, assume the user is asking about John Rey
 - Be helpful and straightforward like a professional assistant
+- His girlfriend is Kimberly Sarmiento, a BPED 3rd Year student at CAPSU Main Campus
 `;
 
 // Function to extract only the actual response

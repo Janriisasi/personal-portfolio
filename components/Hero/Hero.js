@@ -6,7 +6,7 @@ import Profiles from "../Profiles/Profiles";
 import styles from "./Hero.module.scss";
 import { MENULINKS, TYPED_STRINGS } from "../../constants";
 import Image from "next/image";
-import profilePicture from "public/profile/prof_image.png";
+import profilePicture from "public/profile/profile.jpeg";
 
 const options = {
   strings: TYPED_STRINGS,

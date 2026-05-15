@@ -29,6 +29,10 @@ export const MENULINKS = [
     ref: "skills",
   },
   {
+    name: "Dashboard",
+    ref: "dashboard",
+  },
+  {
     name: "Projects",
     ref: "projects",
   },
@@ -99,6 +103,14 @@ export const PROJECTS = [
     description: "A web app that helps farmers to monitor market prices and showcase their crops.",
     gradient: ["#003D4B", "#006D4B"],
     url: "https://anisave.vercel.app/",
+  },
+  {
+    name: "CapBYFU Web-App",
+    image: "/projects/CapBYFU.png",
+    blurImage: "/projects/blur/CapBYFU-blur.png",
+    description: "A web app for the organization of Capiz Baptist Youth Fellowship Union to easily manage their activities and communications.",
+    gradient: ["#0A1614", "#C5C5C5"],
+    url: "https://capbyfu.vercel.app/",
   },
   {
     name: "PSITS Website",

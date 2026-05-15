@@ -11,6 +11,7 @@ import Hero from "@/components/Hero/Hero";
 import About1 from "@/components/About/About1";
 import Skills from "@/components/Skills/Skills";
 import About2 from "@/components/About/About2";
+import DeveloperDashboard from "@/components/DeveloperDashboard/DeveloperDashboard";
 import Projects from "@/components/Projects/Projects";
 import Work from "@/components/Work/Work";
 import Collaboration from "@/components/Collaboration/Collaboration";
@@ -68,6 +69,7 @@ export default function Home() {
             <div className="fixed top-0 left-0 h-screen w-screen -z-1" />
             <Hero />
             <About1 clientHeight={clientHeight} />
+            <DeveloperDashboard />
             <Skills />
             <About2 clientHeight={clientHeight} />
             <Projects isDesktop={isDesktop} clientHeight={clientHeight} />
